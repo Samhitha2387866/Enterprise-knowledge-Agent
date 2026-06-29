@@ -18,7 +18,7 @@ def generate_answer(context, question):
                 Use only the given documents to answer.
                 Documents:{context}
                 Question:{question}
-                Give a concise and accurate answer based on the documents. If the answer is not present in the documents, respond with 'I don't know'."""
+                Give a concise and accurate answer based on the documents. If the answer is not present in the documents, respond politely with: "I'm sorry, but I couldn't find information about that in the available documents. Could you please rephrase your question or check with the relevant team for more details?\""""
             }
         ],
     )
